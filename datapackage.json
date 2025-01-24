@@ -1,0 +1,26 @@
+{
+  "name": "krankenhaus-bettenbelegung_in_deutschland",
+  "title": "Krankenhaus-Bettenbelegung_in_Deutschland",
+  "description": "Diese Datei gibt eine Übersicht über die Datensätze in diesem Open Data Repository. Informationen zum Data Package Standard finden Sie unter https://datapackage.org/. Mehr Information über diesen Datensatz finden sie auf Zenodo () oder Github ()",
+  "homepage": "krankenhaus-bettenbelegung_in_deutschland",
+  "resources": [
+    {
+      "name": "krankenhaus-bettenbelegung_bundeslaender",
+      "type": "table",
+      "path": "Krankenhaus-Bettenbelegung_Bundeslaender.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "Metadaten/schemas/tableschema_Krankenhaus-Bettenbelegung_Bundeslaender.json"
+    },
+    {
+      "name": "krankenhaus-bettenbelegung_deutschland",
+      "type": "table",
+      "path": "Krankenhaus-Bettenbelegung_Deutschland.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "Metadaten/schemas/tableschema_Krankenhaus-Bettenbelegung_Deutschland.json"
+    }
+  ]
+}
