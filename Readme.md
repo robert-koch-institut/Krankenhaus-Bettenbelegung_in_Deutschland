@@ -1,8 +1,13 @@
 # Krankenhaus-Bettenbelegung in Deutschland
 
-Robert Koch-Institut | RKI  
+
+[**Robert Koch-Institut | RKI**](https://rki.de)  
 Seestraße 10  
 13353 Berlin
+
+<br> 
+
+**Beitragende**   
 
 **Fachgebiet 32 | Surveillance und elektronisches Melde- und
 Informationssystem (DEMIS) | ÖGD Kontaktstelle**
@@ -15,13 +20,13 @@ Michaela Diercke (Projektleitung)
 Hannes Wünsche (Datenkuration)  
 Knut Perseke (Datenkuration)
 
-\------
+--- 
 
 **Zitieren**
 
-Robert Koch-Institut (2023): Krankenhaus-Bettenbelegung in Deutschland,
-Berlin: Zenodo. \[DOI:
-10.5281/zenodo.xxxxx\]([https://doi.org/10.5281/zenodo.](https://doi.org/10.5281/zenodo.7055775)xxxxxxx)
+<!-- CITATION_START: {"citation_style": "apa"} -->
+Robert Koch-Institut (2025): Krankenhaus-Bettenbelegung in Deutschland, Berlin: Zenodo. \[DOI: 10.5281/zenodo.xxxxx\]([https://doi.org/10.5281/zenodo.](https://doi.org/10.5281/zenodo.7055775)xxxxxxx)
+<!-- CITATION_END -->
 
 # Informationen zum Datensatz und Entstehungskontext
 
@@ -190,7 +195,7 @@ Krankenhausstandort formuliert. Im Einzelnen sind dies:
 Ein Krankenhaus hat üblicherweise 23 Stunden Zeit (von 12 Uhr bis 11 Uhr
 ME(S)Z des Folgetages), um einen entsprechenden Bericht zu versenden.
 
-![Datenfluss Krankenhaus-Bettenbelegung](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/frictionless/.github/pictures/Datenfluss_Krankenhaus-Bettenbelegung.png?raw=true "Datenfluss Krankenhaus-Bettenbelegung")
+![Datenfluss Krankenhaus-Bettenbelegung](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/frictionless_data/.github/pictures/Datenfluss_Krankenhaus-Bettenbelegung.png?raw=true "Datenfluss Krankenhaus-Bettenbelegung")
 
 \>
 [Profilbeschreibung](https://simplifier.net/rki.demis.statistic/StatisticInformationBedOccupancy/~overview)  
@@ -348,7 +353,7 @@ Die Datei [Krankenhaus-Bettenbelegung_Deutschland.csv](None/blob/main/Krankenhau
 
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
 
-
+<br>
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Krankenhaus-Bettenbelegung_Bundeslaender", "lang": "de"} -->
 
 Die Datei [Krankenhaus-Bettenbelegung_Bundeslaender.csv](None/blob/main/Krankenhaus-Bettenbelegung_Bundeslaender.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_Krankenhaus-Bettenbelegung_Bundeslaender.json](None/blob/main/Metadaten/schemas/tableschema_Krankenhaus-Bettenbelegung_Bundeslaender.json) hinterlegt:
@@ -380,62 +385,48 @@ Die Datei [Krankenhaus-Bettenbelegung_Bundeslaender.csv](None/blob/main/Krankenh
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
+### Formatierung der Daten 
 
+Die Daten sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwendete Zeichensatz der CSV-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma “,”. Datumsangaben sind im ISO8601 Standard formatiert.
 
-### Formatierung
+* Zeichensatz: UTF-8
+* CSV-Trennzeichen: Komma “,”
 
-Die Daten sind im Datensatz als kommaseparierte Datei (csv) enthalten.
-Der verwendete Zeichensatz der .csv Datei ist UTF-8. Das Trennzeichen
-der einzelnen Werte ist ein Komma ",".
+### Metadaten  
 
-### Metadaten
+Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:  
 
-Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit
-Metadaten beschrieben. Über GitHub Actions werden Metadaten an die
-entsprechenden Plattformen verteilt. Für jede Plattform existiert eine
-spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:
+> [Metadaten/](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung in Deutschland/blob/main/Metadaten/)    
 
-\> \[Metadaten/\](/Metadaten/)  
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung in Deutschland/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.   
+ 
+> [Metadaten/zenodo.json](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung in Deutschland/blob/main/Metadaten/zenodo.json)  
 
-Die Versionierung und Vergabe eines Digital Object Identifiers (DOI) zur
-eindeutigen Referenzierung jeder Version erfolgt über
-[Zenodo.org](http://Zenodo.org). Die für den Import in Zenodo
-bereitgestellten Metadaten sind in der
-[<span class="underline">zenodo.json</span>](https://confluence.rki.local/Metadaten/zenodo.json) hinterlegt.
-Die Dokumentation der einzelnen Metadatenvariablen ist unter
-[https://developers.zenodo.org/representation](https://developers.zenodo.org/#representation)
-nachlesbar.   
+In der zenodo.json ist neben der Publikationsdatum (`"publication_date"`) auch der Datenstand in folgendem Format enthalten (Beispiel):  
 
-\>
-[/Metadaten/zenodo.json](https://confluence.rki.local/Metadaten/zenodo.json)
+```
+  "dates": [
+	{
+	  "start": "2023-09-11T15:00:21+02:00",
+	  "end": "2023-09-11T15:00:21+02:00",
+	  "type": "Created",
+	  "description": "Date when the Dataset was created"
+	}
+  ],
+```    
 
-## Hinweise zur Nachnutzung der Daten
+## Hinweise zur Nachnutzung der Daten  
 
-Offene Forschungsdaten des RKI werden auf
-[GitHub.com](http://GitHub.com), [Zenodo.org](http://Zenodo.org) und
-[Edoc.rki.de](http://Edoc.rki.de) bereitgestellt:
+Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
 
-\-
-[https://github.com/robert-koch-institut](https://github.com/robert-koch-institut%5d\(https://github.com/robert-koch-institut\))  
-\-
-[https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut%5d\(https://zenodo.org/communities/robertkochinstitut\))  
-\- [https://edoc.rki.de](https://edoc.rki.de]\(https//edoc.rki.de/\))
+- https://zenodo.org/communities/robertkochinstitut  
+- https://github.com/robert-koch-institut  
+- https://gitlab.opencode.de/robert-koch-institut  
+- https://edoc.rki.de/  
+ 
+### Lizenz  
 
-### Lizenz
+Der Datensatz "Krankenhaus-Bettenbelegung in Deutschland" ist lizenziert unter  der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
 
-Der Datensatz "Krankenhaus-Bettenbelegung in Deutschland " ist
-lizenziert unter der [Creative Commons Namensnennung 4.0 International
-Public License](https://creativecommons.org/licenses/by/4.0/deed.de)
-[CC-BY 4.0
-International](https://creativecommons.org/licenses/by-sa/4.0/legalcode.de).
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](hhttps://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/LIZENZ) Datei des Datensatzes.
 
-Die im Datensatz bereitgestellten Daten sind, unter der Bedingung der
-Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das
-bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu
-verändern, Derivate des Datensatzes zu erstellen und sie für
-kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere
-Informationen zur Lizenz finden sich in der
-[LICENSE](https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland/blob/master/LICENSE)
-bzw.
-[LIZENZ](https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland/blob/master/LIZENZ) Datei
-des Datensatzes.
