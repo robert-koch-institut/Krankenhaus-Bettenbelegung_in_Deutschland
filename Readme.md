@@ -396,11 +396,11 @@ Die Daten sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwen
 
 Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:  
 
-> [Metadaten/](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung in Deutschland/blob/main/Metadaten/)    
+> [Metadaten/](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/Metadaten/)    
 
 Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung in Deutschland/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.   
  
-> [Metadaten/zenodo.json](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung in Deutschland/blob/main/Metadaten/zenodo.json)  
+> [Metadaten/zenodo.json](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/Metadaten/zenodo.json)  
 
 In der zenodo.json ist neben der Publikationsdatum (`"publication_date"`) auch der Datenstand in folgendem Format enthalten (Beispiel):  
 
@@ -428,5 +428,5 @@ Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [Git
 
 Der Datensatz "Krankenhaus-Bettenbelegung in Deutschland" ist lizenziert unter  der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
 
-Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](hhttps://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/LIZENZ) Datei des Datensatzes.
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/LIZENZ) Datei des Datensatzes.
 
