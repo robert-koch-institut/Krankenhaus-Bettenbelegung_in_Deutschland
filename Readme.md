@@ -1,7 +1,7 @@
 Datensatzdokumentation  
 # Krankenhaus-Bettenbelegung in Deutschland
 
-[Robert Koch-Institut | RKI](https.//rki.de)  
+[Robert Koch-Institut | RKI](https://rki.de)  
 Seestraße 10  
 13353 Berlin
 
