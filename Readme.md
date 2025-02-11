@@ -1,7 +1,7 @@
+Datensatzdokumentation  
 # Krankenhaus-Bettenbelegung in Deutschland
 
-
-[**Robert Koch-Institut | RKI**](https://rki.de)  
+[Robert Koch-Institut | RKI](https.//rki.de)  
 Seestraße 10  
 13353 Berlin
 
@@ -9,16 +9,12 @@ Seestraße 10
 
 **Beitragende**   
 
-**Fachgebiet 32 | Surveillance und elektronisches Melde- und
-Informationssystem (DEMIS) | ÖGD Kontaktstelle**
+[Philip Oedi](https://orcid.org/0009-0001-7112-505X) (Datenmanagement), Katarina Birghan&sup1; (Projekt Management) und [Michaela Diercke](https://orcid.org/0000-0002-4678-1813)&sup2; (Projektleitung)
 
-Philip Oedi (Datenmanagement)  
-Katarina Birghan (Projekt Manangement)  
-Michaela Diercke (Projektleitung)
+&emsp;&emsp;&sup1; [Robert Koch-Institut | MF 2](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF2/mf2-fachdaten-kompetenzzentrum-node.html)  
+&emsp;&emsp;&sup2; [Robert Koch-Institut | Fachgebiet 32](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG32/fg32-surveillance-und-elektronisches-melde-und-informationssystem-demis-oegd-kontaktstelle-node.html)
 
-**Fachgebiet MF4 | Informations- und Forschungsdatenmanagement**  
-Hannes Wünsche (Datenkuration)  
-Knut Perseke (Datenkuration)
+
 
 --- 
 
