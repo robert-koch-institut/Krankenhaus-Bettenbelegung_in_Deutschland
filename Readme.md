@@ -1,8 +1,8 @@
 Datensatzdokumentation  
 # Krankenhaus-Bettenbelegung in Deutschland
 
-[Robert Koch-Institut | RKI](https://rki.de)  
-Seestraße 10  
+[**Robert Koch-Institut | RKI**](https://rki.de)  
+Nordufer 20 
 13353 Berlin
 
 <br> 
@@ -13,8 +13,6 @@ Seestraße 10
 
 &emsp;&emsp;&sup1; [Robert Koch-Institut | MF 2](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF2/mf2-fachdaten-kompetenzzentrum-node.html)  
 &emsp;&emsp;&sup2; [Robert Koch-Institut | Fachgebiet 32](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG32/fg32-surveillance-und-elektronisches-melde-und-informationssystem-demis-oegd-kontaktstelle-node.html)
-
-
 
 --- 
 
