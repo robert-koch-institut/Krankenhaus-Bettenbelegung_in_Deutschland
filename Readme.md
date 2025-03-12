@@ -44,7 +44,7 @@ elektronische Melde- und Informationssystem für den Infektionsschutz
 Im Datensatz "Krankenhaus-Bettenbelegung in Deutschland" werden Daten
 zur aktuellen Krankenhausbettenbelegung in Deutschland als Open Data
 bereitgestellt. Das [Fachgebiet 32
-|](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html)
+|](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG32/fg32-surveillance-und-elektronisches-melde-und-informationssystem-demis-oegd-kontaktstelle-node.html)
 Surveillance und elektronisches Melde- und Informationssystem (DEMIS) |
 ÖGD Kontaktstelle ist verantwortlich für die fachlichen Anforderungen,
 Standardisierung und konzeptionelle Weiterentwicklung des Meldesystems
@@ -52,12 +52,12 @@ gemäß IfSG.  
 Zuständig für den Betrieb des Meldesystems und die Verarbeitung und
 Aufbereitung der im Meldesystem vorliegenden Rohdaten ist das
 [Fachgebiet IT4 |
-Development](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/IT4/it4_node.html) des
+Development](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/IT4/it4-softwarearchitektur-und-entwicklung-node.html) des
 RKI.    
 Die Veröffentlichung der Daten, die Datenkuration sowie das
 Qualitätsmanagement der (Meta-)Daten erfolgen durch das [Fachgebiet
 MF 4 | Informations- und
-Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/MF4/mf4_node.html).
+Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html).
 Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an
 [opendata@](mailto:OpenData@rki.de)[rki.de](http://rki.de) gerichtet
 werden.  
@@ -147,7 +147,7 @@ DEMIS-Adapter) senden, der die Inhalte in das von DEMIS genutzte
 HL7-FHIR-Format übersetzt. Nach Übernahme der Meldungen durch den
 DEMIS-Adapter werden die Meldungen im zentralen System validiert. Nähere
 Informationen zu DEMIS sind auf der Webseite des RKI unter
-[www.rki.de/demis](https://www.rki.de/DE/Content/Infekt/IfSG/DEMIS/DEMIS_node.html)
+[www.rki.de/demis](https://www.rki.de/DE/Themen/Infektionskrankheiten/Meldewesen/DEMIS/DEMIS_inhalt.html)
 und in den referenzierten Fachpublikationen
 [(Diercke 2018](http://doi.org/10.25646/5606)) zu finden. Informationen
 zur DEMIS FHIR-API und entsprechender FHIR-Profile sind unter
