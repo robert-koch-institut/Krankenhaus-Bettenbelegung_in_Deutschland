@@ -1,25 +1,53 @@
-Datensatzdokumentation  
+
+<!-- HEADER_START: {"lang": "de"} -->
+
+
+Dokumentation  
+
 # Krankenhaus-Bettenbelegung in Deutschland
 
-[Robert Koch-Institut | RKI](https://rki.de)  
-Seestraße 10  
-13353 Berlin
+<br> 
+<br> 
+<br> 
+
+[**Robert Koch-Institut**](http://www.rki.de/)
 
 <br> 
 
 **Beitragende**   
-[Philip Oedi](https://orcid.org/0009-0001-7112-505X) (Datenmanagement), Katarina Birghan&sup1; (Projekt Management) und [Michaela Diercke](https://orcid.org/0000-0002-4678-1813)&sup2; (Projektleitung)
+[Philip Oedi](https://orcid.org/0009-0001-7112-505X)&sup1;, Katarina Birghan&sup2;, & [Michaela Diercke](https://orcid.org/0000-0002-4678-1813)&sup3;
 
-&emsp;&emsp;&sup1; [Robert Koch-Institut | MF 2](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF2/mf2-fachdaten-kompetenzzentrum-node.html)  
-&emsp;&emsp;&sup2; [Robert Koch-Institut | Fachgebiet 32](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG32/fg32-surveillance-und-elektronisches-melde-und-informationssystem-demis-oegd-kontaktstelle-node.html)
+&emsp;&emsp;&sup1; [Robert Koch-Institut](http://www.rki.de/)  
+&emsp;&emsp;&sup2; [Robert Koch-Institut](http://www.rki.de/) | [Fachgebiet MF 2](https://www.rki.de/mf2)  
+&emsp;&emsp;&sup3; [Robert Koch-Institut](http://www.rki.de/) | [Fachgebiet 32](https://www.rki.de/fg32)
 
---- 
+<br> 
 
-**Zitieren**
-
+**Zitieren**  
 <!-- CITATION_START: {"citation_style": "apa"} -->
 Robert Koch-Institut (2025): Krankenhaus-Bettenbelegung in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.xxxxxx](https://doi.org/10.5281/zenodo.xxxxxx)
 <!-- CITATION_END -->
+
+
+<br>
+
+**Zusammenfassung**    
+Im Datensatz "Krankenhaus-Bettenbelegung in Deutschland" des Robert Koch-Instituts werden täglich aktualisierte Informationen zu Krankenhausbettenbelegung basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Der Datensatz umfasst die Anzahl der betreibbaren sowie belegten Betten auf Normalstationen für Erwachsene und Kinder deutschlandweit und auf der Ebene der Bundesländer. Zusätzlich wird der Anteil der belegten an den betreibbaren Betten bereitgestellt. Ziel ist es, frühzeitig eine Überlastung auf Normalstationen in deutschen Krankenhäusern auf Stadt-, Kreis- und Landesebene zu erkennen und gegensteuern zu können.
+
+<br>
+
+**Inhaltsverzeichnis**  
+
+<!-- TOC_START: {"heading_depth": 2} -->
+  - [Administrative und organisatorische Angaben](#administrative-und-organisatorische-angaben)  
+  - [Entstehungskontext](#entstehungskontext)  
+  - [Aufbau und Inhalt des Datensatzes](#aufbau-und-inhalt-des-datensatzes)  
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)  
+<!-- TOC_END -->
+
+<br>
+
+<!-- HEADER_END -->
 
 # Informationen zum Datensatz und Entstehungskontext
 
@@ -44,7 +72,7 @@ elektronische Melde- und Informationssystem für den Infektionsschutz
 Im Datensatz "Krankenhaus-Bettenbelegung in Deutschland" werden Daten
 zur aktuellen Krankenhausbettenbelegung in Deutschland als Open Data
 bereitgestellt. Das [Fachgebiet 32
-|](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html)
+|](https://www.rki.de/fg32)
 Surveillance und elektronisches Melde- und Informationssystem (DEMIS) |
 ÖGD Kontaktstelle ist verantwortlich für die fachlichen Anforderungen,
 Standardisierung und konzeptionelle Weiterentwicklung des Meldesystems
@@ -52,12 +80,12 @@ gemäß IfSG.  
 Zuständig für den Betrieb des Meldesystems und die Verarbeitung und
 Aufbereitung der im Meldesystem vorliegenden Rohdaten ist das
 [Fachgebiet IT4 |
-Development](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/IT4/it4_node.html) des
+Development](https://www.rki.de/it4) des
 RKI.    
 Die Veröffentlichung der Daten, die Datenkuration sowie das
 Qualitätsmanagement der (Meta-)Daten erfolgen durch das [Fachgebiet
 MF 4 | Informations- und
-Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/MF4/mf4_node.html).
+Forschungsdatenmanagement](https://www.rki.de/mf4).
 Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an
 [opendata@](mailto:OpenData@rki.de)[rki.de](http://rki.de) gerichtet
 werden.  
@@ -97,7 +125,7 @@ IfSG](https://www.gesetze-im-internet.de/ifsg/__13.html) von der
 Meldeverpflichtung zur Bettenbelegung ausgeschlossen, da laut dieser
 Vorschrift nur die somatischen Behandlungskapazitäten zu melden sind.
 
-Sogenannte „Mischkrankenhäuser“ (Krankenhäuser, die psychiatrische und
+Sogenannte "Mischkrankenhäuser" (Krankenhäuser, die psychiatrische und
 somatische Bereiche vorhalten) sind nach [§ 13 Absatz 7
 IfSG](https://www.gesetze-im-internet.de/ifsg/__13.html) i.V.m. [§ 1
 Verordnung zur
@@ -147,7 +175,7 @@ DEMIS-Adapter) senden, der die Inhalte in das von DEMIS genutzte
 HL7-FHIR-Format übersetzt. Nach Übernahme der Meldungen durch den
 DEMIS-Adapter werden die Meldungen im zentralen System validiert. Nähere
 Informationen zu DEMIS sind auf der Webseite des RKI unter
-[www.rki.de/demis](https://www.rki.de/DE/Content/Infekt/IfSG/DEMIS/DEMIS_node.html)
+[www.rki.de/demis](https://www.rki.de/DE/Themen/Infektionskrankheiten/Meldewesen/DEMIS/DEMIS_inhalt.html)
 und in den referenzierten Fachpublikationen
 [(Diercke 2018](http://doi.org/10.25646/5606)) zu finden. Informationen
 zur DEMIS FHIR-API und entsprechender FHIR-Profile sind unter
@@ -188,7 +216,7 @@ Krankenhausstandort formuliert. Im Einzelnen sind dies:
 Ein Krankenhaus hat üblicherweise 23 Stunden Zeit (von 12 Uhr bis 11 Uhr
 ME(S)Z des Folgetages), um einen entsprechenden Bericht zu versenden.
 
-![Datenfluss Krankenhaus-Bettenbelegung](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/frictionless_data/.github/pictures/Datenfluss_Krankenhaus-Bettenbelegung.png?raw=true "Datenfluss Krankenhaus-Bettenbelegung")
+![Datenfluss Krankenhaus-Bettenbelegung](.github/pictures/Datenfluss_Krankenhaus-Bettenbelegung.png)
 
 \>
 [Profilbeschreibung](https://simplifier.net/rki.demis.statistic/StatisticInformationBedOccupancy/~overview)  
@@ -321,26 +349,27 @@ Im Datensatz enthalten sind:
 
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Krankenhaus-Bettenbelegung_Deutschland", "lang": "de"} -->
 
-Die Datei [Krankenhaus-Bettenbelegung_Deutschland.csv](None/blob/main/Krankenhaus-Bettenbelegung_Deutschland.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_Krankenhaus-Bettenbelegung_Deutschland.json](None/blob/main/Metadaten/schemas/tableschema_Krankenhaus-Bettenbelegung_Deutschland.json) hinterlegt:
-> [tableschema_Krankenhaus-Bettenbelegung_Deutschland.json](None/blob/main/Metadaten/schemas/tableschema_Krankenhaus-Bettenbelegung_Deutschland.json)
+Die Datei [Krankenhaus-Bettenbelegung_Deutschland.csv](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/Krankenhaus-Bettenbelegung_Deutschland.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_Krankenhaus-Bettenbelegung_Deutschland.json](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/Metadaten/schemas/tableschema_Krankenhaus-Bettenbelegung_Deutschland.json) hinterlegt:
+
+> [tableschema_Krankenhaus-Bettenbelegung_Deutschland.json](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/Metadaten/schemas/tableschema_Krankenhaus-Bettenbelegung_Deutschland.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
-| Variable                             | Typ     | Ausprägungen         | Beschreibung                                                                                                                                                                                                            |
-|:-------------------------------------|:--------|:---------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| berichtsdatum                        | date    | Format: `YYYY-MM-DD` | Datum der Veröffentlichung der an das RKI durch die Krankenhäuser gemeldeten Bettenbelegungen und Bettenkapazitäten                                                                                                     |
-| betten_erwachsene_frei_absolut       | integer | Werte: `≥0`          | Anzahl der freien Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                                                        |
-| betten_erwachsene_frei_anteil        | number  | Werte: `0` - `1`     | Anteil der freien Betten für Erwachsene in Relation zur Anzahl verfügbarer Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum                                                               |
-| betten_kinder_frei_absolut           | integer | Werte: `≥0`          | Anzahl der freien Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                                                            |
-| betten_kinder_frei_anteil            | number  | Werte: `0` - `1`     | Anteil der freien Betten für Kinder in Relation zur Anzahl verfügbarer Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                       |
-| betten_gesamt_frei_absolut           | integer | Werte: `≥0`          | Gesamtzahl freier Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                           |
-| betten_gesamt_frei_anteil            | number  | Werte: `0` - `1`     | Gesamtanteil freier Betten für Kinder und Erwachsene zusammengerechnet in Relation zur Anzahl verfügbarer Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum   |
-| betten_erwachsene_belegt_<br>absolut | integer | Werte: `≥0`          | Anzahl der belegten Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                                                      |
-| betten_erwachsene_belegt_<br>anteil  | number  | Werte: `0` - `1`     | Anteil der freien Betten für Erwachsene in Relation zur Anzahl verfügbarer Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum                                                               |
-| betten_kinder_belegt_absolut         | integer | Werte: `≥0`          | Anzahl der belegten Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                                                          |
-| betten_kinder_belegt_anteil          | number  | Werte: `0` - `1`     | Anteil der belegten Betten für Kinder in Relation zur Anzahl belegten Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                        |
-| betten_gesamt_belegt_absolut         | integer | Werte: `≥0`          | Gesamtzahl belegter Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                         |
-| betten_gesamt_belegt_anteil          | number  | Werte: `0` - `1`     | Gesamtanteil belegter Betten für Kinder und Erwachsene zusammengerechnet in Relation zur Anzahl verfügbarer Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum |
-| kliniken_meldend_beide               | integer | Werte: `≥0`          | Anzahl der Kliniken die belegte und nicht belegte Betten melden.                                                                                                                                                        |
+| Variable                             | Typ     | Ausprägungen            | Beschreibung                                                                                                                                                                                                            |
+|:-------------------------------------|:--------|:------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| berichtsdatum                        | date    | Format:<br>`YYYY-MM-DD` | Datum der Veröffentlichung der an das RKI durch die Krankenhäuser gemeldeten Bettenbelegungen und Bettenkapazitäten                                                                                                     |
+| betten_erwachsene_frei_<br>absolut   | integer | Werte:<br>`≥0`          | Anzahl der freien Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                                                        |
+| betten_erwachsene_frei_<br>anteil    | number  | Werte:<br>`0` - `1`     | Anteil der freien Betten für Erwachsene in Relation zur Anzahl verfügbarer Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum                                                               |
+| betten_kinder_frei_<br>absolut       | integer | Werte:<br>`≥0`          | Anzahl der freien Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                                                            |
+| betten_kinder_frei_anteil            | number  | Werte:<br>`0` - `1`     | Anteil der freien Betten für Kinder in Relation zur Anzahl verfügbarer Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                       |
+| betten_gesamt_frei_<br>absolut       | integer | Werte:<br>`≥0`          | Gesamtzahl freier Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                           |
+| betten_gesamt_frei_anteil            | number  | Werte:<br>`0` - `1`     | Gesamtanteil freier Betten für Kinder und Erwachsene zusammengerechnet in Relation zur Anzahl verfügbarer Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum   |
+| betten_erwachsene_belegt_<br>absolut | integer | Werte:<br>`≥0`          | Anzahl der belegten Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                                                      |
+| betten_erwachsene_belegt_<br>anteil  | number  | Werte:<br>`0` - `1`     | Anteil der freien Betten für Erwachsene in Relation zur Anzahl verfügbarer Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum                                                               |
+| betten_kinder_belegt_<br>absolut     | integer | Werte:<br>`≥0`          | Anzahl der belegten Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                                                          |
+| betten_kinder_belegt_<br>anteil      | number  | Werte:<br>`0` - `1`     | Anteil der belegten Betten für Kinder in Relation zur Anzahl belegten Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                        |
+| betten_gesamt_belegt_<br>absolut     | integer | Werte:<br>`≥0`          | Gesamtzahl belegter Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                         |
+| betten_gesamt_belegt_<br>anteil      | number  | Werte:<br>`0` - `1`     | Gesamtanteil belegter Betten für Kinder und Erwachsene zusammengerechnet in Relation zur Anzahl verfügbarer Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum |
+| kliniken_meldend_beide               | integer | Werte:<br>`≥0`          | Anzahl der Kliniken die belegte und nicht belegte Betten melden.                                                                                                                                                        |
 
 <!-- DATA_SCHEMA_TABLE_END -->
 
@@ -349,29 +378,30 @@ Die Datei [Krankenhaus-Bettenbelegung_Deutschland.csv](None/blob/main/Krankenhau
 <br>
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Krankenhaus-Bettenbelegung_Bundeslaender", "lang": "de"} -->
 
-Die Datei [Krankenhaus-Bettenbelegung_Bundeslaender.csv](None/blob/main/Krankenhaus-Bettenbelegung_Bundeslaender.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_Krankenhaus-Bettenbelegung_Bundeslaender.json](None/blob/main/Metadaten/schemas/tableschema_Krankenhaus-Bettenbelegung_Bundeslaender.json) hinterlegt:
-> [tableschema_Krankenhaus-Bettenbelegung_Bundeslaender.json](None/blob/main/Metadaten/schemas/tableschema_Krankenhaus-Bettenbelegung_Bundeslaender.json)
+Die Datei [Krankenhaus-Bettenbelegung_Bundeslaender.csv](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/Krankenhaus-Bettenbelegung_Bundeslaender.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_Krankenhaus-Bettenbelegung_Bundeslaender.json](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/Metadaten/schemas/tableschema_Krankenhaus-Bettenbelegung_Bundeslaender.json) hinterlegt:
+
+> [tableschema_Krankenhaus-Bettenbelegung_Bundeslaender.json](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/Metadaten/schemas/tableschema_Krankenhaus-Bettenbelegung_Bundeslaender.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
-| Variable                             | Typ     | Ausprägungen                                                                                    | Beschreibung                                                                                                                                                                                                            |
-|:-------------------------------------|:--------|:------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| berichtsdatum                        | date    | Format: `YYYY-MM-DD`                                                                            | Datum der Veröffentlichung der an das RKI durch die Krankenhäuser gemeldeten Bettenbelegungen und Bettenkapazitäten                                                                                                     |
-| bundesland                           | string  | Werte: `Baden-Württemberg`, `Bayern`, `Berlin`, `Brandenburg`, `Bremen`, `Hamburg`, `Hessen`, … |                                                                                                                                                                                                                         |
-| bundesland_id                        | integer | Werte: `01`, `02`, `03`, `04`, `05`, `06`, `07`, …                                              |                                                                                                                                                                                                                         |
-| betten_erwachsene_frei_absolut       | integer | Werte: `≥0`                                                                                     | Anzahl der freien Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                                                        |
-| betten_erwachsene_frei_anteil        | number  | Werte: `0` - `1`                                                                                | Anteil der freien Betten für Erwachsene in Relation zur Anzahl verfügbarer Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum                                                               |
-| betten_kinder_frei_absolut           | integer | Werte: `≥0`                                                                                     | Anzahl der freien Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                                                            |
-| betten_kinder_frei_anteil            | number  | Werte: `0` - `1`<br>Fehlende Werte: `NA`                                                        | Anteil der freien Betten für Kinder in Relation zur Anzahl verfügbarer Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                       |
-| betten_gesamt_frei_absolut           | integer | Werte: `≥0`                                                                                     | Gesamtzahl freier Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                           |
-| betten_gesamt_frei_anteil            | number  | Werte: `0` - `1`                                                                                | Gesamtanteil freier Betten für Kinder und Erwachsene zusammengerechnet in Relation zur Anzahl verfügbarer Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum   |
-| betten_erwachsene_belegt_<br>absolut | integer | Werte: `≥0`                                                                                     | Anzahl der belegten Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                                                      |
-| betten_erwachsene_belegt_<br>anteil  | number  | Werte: `0` - `1`                                                                                | Anteil der freien Betten für Erwachsene in Relation zur Anzahl verfügbarer Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum                                                               |
-| betten_kinder_belegt_absolut         | integer | Werte: `≥0`                                                                                     | Anzahl der belegten Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                                                          |
-| betten_kinder_belegt_anteil          | number  | Werte: `0` - `1`<br>Fehlende Werte: `NA`                                                        | Anteil der belegten Betten für Kinder in Relation zur Anzahl belegten Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                        |
-| betten_gesamt_belegt_absolut         | integer | Werte: `≥0`                                                                                     | Gesamtzahl belegter Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                         |
-| betten_gesamt_belegt_anteil          | number  | Werte: `0` - `1`                                                                                | Gesamtanteil belegter Betten für Kinder und Erwachsene zusammengerechnet in Relation zur Anzahl verfügbarer Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum |
-| kliniken_meldend_beide               | integer | Werte: `≥0`                                                                                     | Anzahl der Kliniken die belegte und nicht belegte Betten melden.                                                                                                                                                        |
-| kliniken_meldend_belegt              | integer | Werte: `≥0`                                                                                     | Anzahl der Kliniken die belegte Betten melden.                                                                                                                                                                          |
+| Variable                             | Typ     | Ausprägungen                                                                                       | Beschreibung                                                                                                                                                                                                            |
+|:-------------------------------------|:--------|:---------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| berichtsdatum                        | date    | Format:<br>`YYYY-MM-DD`                                                                            | Datum der Veröffentlichung der an das RKI durch die Krankenhäuser gemeldeten Bettenbelegungen und Bettenkapazitäten                                                                                                     |
+| bundesland                           | string  | Werte:<br>`Baden-Württemberg`, `Bayern`, `Berlin`, `Brandenburg`, `Bremen`, `Hamburg`, `Hessen`, … |                                                                                                                                                                                                                         |
+| bundesland_id                        | integer | Werte:<br>`01`, `02`, `03`, `04`, `05`, `06`, `07`, …                                              |                                                                                                                                                                                                                         |
+| betten_erwachsene_frei_<br>absolut   | integer | Werte:<br>`≥0`                                                                                     | Anzahl der freien Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                                                        |
+| betten_erwachsene_frei_<br>anteil    | number  | Werte:<br>`0` - `1`                                                                                | Anteil der freien Betten für Erwachsene in Relation zur Anzahl verfügbarer Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum                                                               |
+| betten_kinder_frei_<br>absolut       | integer | Werte:<br>`≥0`                                                                                     | Anzahl der freien Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                                                            |
+| betten_kinder_frei_anteil            | number  | Werte:<br>`0` - `1`<br>Fehlende Werte:<br>`NA`                                                     | Anteil der freien Betten für Kinder in Relation zur Anzahl verfügbarer Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                       |
+| betten_gesamt_frei_<br>absolut       | integer | Werte:<br>`≥0`                                                                                     | Gesamtzahl freier Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                           |
+| betten_gesamt_frei_anteil            | number  | Werte:<br>`0` - `1`                                                                                | Gesamtanteil freier Betten für Kinder und Erwachsene zusammengerechnet in Relation zur Anzahl verfügbarer Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum   |
+| betten_erwachsene_belegt_<br>absolut | integer | Werte:<br>`≥0`                                                                                     | Anzahl der belegten Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                                                      |
+| betten_erwachsene_belegt_<br>anteil  | number  | Werte:<br>`0` - `1`                                                                                | Anteil der freien Betten für Erwachsene in Relation zur Anzahl verfügbarer Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum                                                               |
+| betten_kinder_belegt_<br>absolut     | integer | Werte:<br>`≥0`                                                                                     | Anzahl der belegten Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                                                          |
+| betten_kinder_belegt_<br>anteil      | number  | Werte:<br>`0` - `1`<br>Fehlende Werte:<br>`NA`                                                     | Anteil der belegten Betten für Kinder in Relation zur Anzahl belegten Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                        |
+| betten_gesamt_belegt_<br>absolut     | integer | Werte:<br>`≥0`                                                                                     | Gesamtzahl belegter Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum                                                                                         |
+| betten_gesamt_belegt_<br>anteil      | number  | Werte:<br>`0` - `1`                                                                                | Gesamtanteil belegter Betten für Kinder und Erwachsene zusammengerechnet in Relation zur Anzahl verfügbarer Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum |
+| kliniken_meldend_beide               | integer | Werte:<br>`≥0`                                                                                     | Anzahl der Kliniken die belegte und nicht belegte Betten melden.                                                                                                                                                        |
+| kliniken_meldend_belegt              | integer | Werte:<br>`≥0`                                                                                     | Anzahl der Kliniken die belegte Betten melden.                                                                                                                                                                          |
 
 <!-- DATA_SCHEMA_TABLE_END -->
 
@@ -380,46 +410,67 @@ Die Datei [Krankenhaus-Bettenbelegung_Bundeslaender.csv](None/blob/main/Krankenh
 
 ### Formatierung der Daten 
 
-Die Daten sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwendete Zeichensatz der CSV-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma “,”. Datumsangaben sind im ISO8601 Standard formatiert.
+Die Daten sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwendete Zeichensatz der CSV-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma `,`. Datumsangaben sind im ISO8601 Standard formatiert.
 
 * Zeichensatz: UTF-8
-* CSV-Trennzeichen: Komma “,”
+* CSV-Trennzeichen: Komma `,`
+
+
+<!-- FOOTER_START: {"lang": "de"} -->
 
 ### Metadaten  
 
 Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:  
 
-> [Metadaten/](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/Metadaten/)    
+> [Metadaten/](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/tree/main/Metadaten/) 
 
-Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.   
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter [https://developers.zenodo.org/#representation](https://developers.zenodo.org/#representation) nachlesbar.
  
 > [Metadaten/zenodo.json](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/Metadaten/zenodo.json)  
 
-In der zenodo.json ist neben der Publikationsdatum (`"publication_date"`) auch der Datenstand in folgendem Format enthalten (Beispiel):  
+In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch der Datenstand in folgendem Format enthalten (Beispiel):  
 
 ```
   "dates": [
-	{
-	  "start": "2023-09-11T15:00:21+02:00",
-	  "end": "2023-09-11T15:00:21+02:00",
-	  "type": "Created",
-	  "description": "Date when the Dataset was created"
-	}
+    {
+      "start": "2023-09-11T15:00:21+02:00",
+      "end": "2023-09-11T15:00:21+02:00",
+      "type": "Created",
+      "description": "Date when the published data was created"
+    }
   ],
 ```    
+
+
+Zusätzlich beschreiben wir tabellarische Daten mithilfe des [Data Package Standards](https://datapackage.org/).
+Ein Data Package ist eine strukturierte Sammlung von Daten und zugehörigen Metadaten, die den Austausch und die Wiederverwendung von Daten erleichtert. Es besteht aus einer datapackage.json-Datei, die zentrale Informationen wie die enthaltenen Ressourcen, ihre Formate und Schema-Definitionen beschreibt.
+
+Der Data Package Standard wird von der [Open Knowledge Foundation](https://okfn.org/) bereitgestellt und ist ein offenes Format, das eine einfache, maschinenlesbare Beschreibung von Datensätzen ermöglicht.
+
+Die Liste der in diesem Repository enthaltenen Daten ist in folgender Datei hinterlegt:
+
+> [datapackage.json](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/tree/main/datapackage.json)
+
+Für tabellarische Daten definieren wir zusätzlich ein [Table Schema](https://datapackage.org/standard/table-schema/), das die Struktur der Tabellen beschreibt, einschließlich Spaltennamen, Datentypen und Validierungsregeln. Diese Schema-Dateien finden sich unter:
+
+> [Metadaten/schemas/](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/tree/main/Metadaten/schemas) 
+
+
 
 ## Hinweise zur Nachnutzung der Daten  
 
 Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
 
-- https://zenodo.org/communities/robertkochinstitut  
-- https://github.com/robert-koch-institut  
-- https://gitlab.opencode.de/robert-koch-institut  
-- https://edoc.rki.de/  
- 
+- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)  
+- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)  
+- [https://gitlab.opencode.de/robert-koch-institut](https://gitlab.opencode.de/robert-koch-institut)  
+- [https://edoc.rki.de/](https://edoc.rki.de/) 
+
+
+
 ### Lizenz  
 
-Der Datensatz "Krankenhaus-Bettenbelegung in Deutschland" ist lizenziert unter  der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
+Der Datensatz "Krankenhaus-Bettenbelegung in Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
 
-Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/LIZENZ) Datei des Datensatzes.
-
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/LIZENZ) Datei des Datensatzes.  
+<!-- FOOTER_END -->
