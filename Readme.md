@@ -24,8 +24,8 @@ Dokumentation
 <br> 
 
 **Zitieren**  
-<!-- CITATION_START: {"citation_style": "apa"} -->
-Robert Koch-Institut (2025): Krankenhaus-Bettenbelegung in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.xxxxxx](https://doi.org/10.5281/zenodo.xxxxxx)
+<!-- CITATION_START: {"citation_style": "apa", "markdown_style": "plain"} -->
+Robert Koch-Institut. (2026). Krankenhaus-Bettenbelegung in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.xxxxxx](https://doi.org/10.5281/zenodo.xxxxxx)
 <!-- CITATION_END -->
 
 
