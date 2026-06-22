@@ -4,12 +4,23 @@
       "name": "berichtsdatum",
       "type": "date",
       "description": "Datum der Veröffentlichung der an das RKI durch die Krankenhäuser gemeldeten Bettenbelegungen und Bettenkapazitäten",
-      "format": "%Y-%m-%d"
+      "format": "%Y-%m-%d",
+      "missingValues": [
+        ""
+      ],
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "bundesland",
       "type": "string",
+      "description": "Name des Bundeslandes",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
+        "required": true,
         "enum": [
           "Baden-Württemberg",
           "Bayern",
@@ -33,7 +44,12 @@
     {
       "name": "bundesland_id",
       "type": "integer",
+      "description": "Identifikationsnummer der Bundesländer basierend auf dem Amtlichen Gemeindeschlüssel (AGS)",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
+        "required": true,
         "enum": [
           "01",
           "02",
@@ -58,7 +74,11 @@
       "name": "betten_erwachsene_frei_absolut",
       "type": "integer",
       "description": "Anzahl der freien Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
+        "required": true,
         "minimum": 0
       }
     },
@@ -66,7 +86,12 @@
       "name": "betten_erwachsene_frei_anteil",
       "type": "number",
       "description": "Anteil der freien Betten für Erwachsene in Relation zur Anzahl verfügbarer Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum",
+      "missingValues": [
+        "",
+        "NA"
+      ],
       "constraints": {
+        "required": false,
         "minimum": 0,
         "maximum": 1
       }
@@ -75,7 +100,11 @@
       "name": "betten_kinder_frei_absolut",
       "type": "integer",
       "description": "Anzahl der freien Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
+        "required": true,
         "minimum": 0
       }
     },
@@ -84,9 +113,11 @@
       "type": "number",
       "description": "Anteil der freien Betten für Kinder in Relation zur Anzahl verfügbarer Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum",
       "missingValues": [
+        "",
         "NA"
       ],
       "constraints": {
+        "required": false,
         "minimum": 0,
         "maximum": 1
       }
@@ -95,7 +126,11 @@
       "name": "betten_gesamt_frei_absolut",
       "type": "integer",
       "description": "Gesamtzahl freier Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
+        "required": true,
         "minimum": 0
       }
     },
@@ -103,7 +138,12 @@
       "name": "betten_gesamt_frei_anteil",
       "type": "number",
       "description": "Gesamtanteil freier Betten für Kinder und Erwachsene zusammengerechnet in Relation zur Anzahl verfügbarer Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum",
+      "missingValues": [
+        "",
+        "NA"
+      ],
       "constraints": {
+        "required": false,
         "minimum": 0,
         "maximum": 1
       }
@@ -112,7 +152,11 @@
       "name": "betten_erwachsene_belegt_absolut",
       "type": "integer",
       "description": "Anzahl der belegten Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
+        "required": true,
         "minimum": 0
       }
     },
@@ -120,7 +164,12 @@
       "name": "betten_erwachsene_belegt_anteil",
       "type": "number",
       "description": "Anteil der freien Betten für Erwachsene in Relation zur Anzahl verfügbarer Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum",
+      "missingValues": [
+        "",
+        "NA"
+      ],
       "constraints": {
+        "required": false,
         "minimum": 0,
         "maximum": 1
       }
@@ -129,7 +178,11 @@
       "name": "betten_kinder_belegt_absolut",
       "type": "integer",
       "description": "Anzahl der belegten Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
+        "required": true,
         "minimum": 0
       }
     },
@@ -138,9 +191,11 @@
       "type": "number",
       "description": "Anteil der belegten Betten für Kinder in Relation zur Anzahl belegten Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum",
       "missingValues": [
+        "",
         "NA"
       ],
       "constraints": {
+        "required": false,
         "minimum": 0,
         "maximum": 1
       }
@@ -149,7 +204,11 @@
       "name": "betten_gesamt_belegt_absolut",
       "type": "integer",
       "description": "Gesamtzahl belegter Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
+        "required": true,
         "minimum": 0
       }
     },
@@ -157,7 +216,12 @@
       "name": "betten_gesamt_belegt_anteil",
       "type": "number",
       "description": "Gesamtanteil belegter Betten für Kinder und Erwachsene zusammengerechnet in Relation zur Anzahl verfügbarer Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum",
+      "missingValues": [
+        "",
+        "NA"
+      ],
       "constraints": {
+        "required": false,
         "minimum": 0,
         "maximum": 1
       }
@@ -166,7 +230,11 @@
       "name": "kliniken_meldend_beide",
       "type": "integer",
       "description": "Anzahl der Kliniken die belegte und nicht belegte Betten melden.",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
+        "required": true,
         "minimum": 0
       }
     },
@@ -174,7 +242,11 @@
       "name": "kliniken_meldend_belegt",
       "type": "integer",
       "description": "Anzahl der Kliniken die belegte Betten melden.",
+      "missingValues": [
+        ""
+      ],
       "constraints": {
+        "required": true,
         "minimum": 0
       }
     }
