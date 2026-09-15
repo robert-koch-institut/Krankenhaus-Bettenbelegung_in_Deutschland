@@ -196,8 +196,6 @@ Im Datensatz enthalten sind:
 
 Die Datei [Krankenhaus-Bettenbelegung_Deutschland.csv](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/Krankenhaus-Bettenbelegung_Deutschland.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_Krankenhaus-Bettenbelegung_Deutschland.json](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/Metadaten/schemas/tableschema_Krankenhaus-Bettenbelegung_Deutschland.json) hinterlegt:
 
-> [tableschema_Krankenhaus-Bettenbelegung_Deutschland.json](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/Metadaten/schemas/tableschema_Krankenhaus-Bettenbelegung_Deutschland.json)
-
 <!-- DATA_SCHEMA_TABLE_START -->
 | Variable                             | Typ     | Ausprägungen                                   | Beschreibung                                                                                                                                                                              |
 |:-------------------------------------|:--------|:-----------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -224,8 +222,6 @@ Die Datei [Krankenhaus-Bettenbelegung_Deutschland.csv](https://github.com/robert
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Krankenhaus-Bettenbelegung_Bundeslaender", "lang": "de"} -->
 
 Die Datei [Krankenhaus-Bettenbelegung_Bundeslaender.csv](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/Krankenhaus-Bettenbelegung_Bundeslaender.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_Krankenhaus-Bettenbelegung_Bundeslaender.json](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/Metadaten/schemas/tableschema_Krankenhaus-Bettenbelegung_Bundeslaender.json) hinterlegt:
-
-> [tableschema_Krankenhaus-Bettenbelegung_Bundeslaender.json](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/Metadaten/schemas/tableschema_Krankenhaus-Bettenbelegung_Bundeslaender.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
 | Variable                             | Typ     | Ausprägungen                                                                                       | Beschreibung                                                                                                                                                                                                            |
@@ -317,5 +313,5 @@ Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [Git
 
 Der Datensatz "Krankenhaus-Bettenbelegung in Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
 
-Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/LIZENZ) Datei des Datensatzes.  
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, dass jede Person das Recht hat, die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/LIZENZ) Datei des Datensatzes.  
 <!-- FOOTER_END -->
