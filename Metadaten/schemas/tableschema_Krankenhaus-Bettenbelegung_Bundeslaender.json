@@ -3,7 +3,7 @@
     {
       "name": "berichtsdatum",
       "type": "date",
-      "description": "Datum der Veröffentlichung der an das RKI durch die Krankenhäuser gemeldeten Bettenbelegungen und Bettenkapazitäten",
+      "description": "Datum, für das die Bettenbelegungen und Bettenkapazitäten durch die Krankenhäuser an das RKI gemeldet wurden",
       "format": "%Y-%m-%d",
       "missingValues": [
         ""
@@ -43,7 +43,7 @@
     },
     {
       "name": "bundesland_id",
-      "type": "integer",
+      "type": "string",
       "description": "Identifikationsnummer der Bundesländer basierend auf dem Amtlichen Gemeindeschlüssel (AGS)",
       "missingValues": [
         ""
@@ -73,7 +73,7 @@
     {
       "name": "betten_erwachsene_frei_absolut",
       "type": "integer",
-      "description": "Anzahl der freien Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum",
+      "description": "Anzahl der verfügbaren Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum",
       "missingValues": [
         ""
       ],
@@ -85,7 +85,7 @@
     {
       "name": "betten_erwachsene_frei_anteil",
       "type": "number",
-      "description": "Anteil der freien Betten für Erwachsene in Relation zur Anzahl verfügbarer Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum",
+      "description": "Anteil der verfügbaren Betten für Erwachsene in Relation zur Anzahl betreibbarer Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum",
       "missingValues": [
         "",
         "NA"
@@ -99,7 +99,7 @@
     {
       "name": "betten_kinder_frei_absolut",
       "type": "integer",
-      "description": "Anzahl der freien Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum",
+      "description": "Anzahl der verfügbaren Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum",
       "missingValues": [
         ""
       ],
@@ -111,7 +111,7 @@
     {
       "name": "betten_kinder_frei_anteil",
       "type": "number",
-      "description": "Anteil der freien Betten für Kinder in Relation zur Anzahl verfügbarer Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum",
+      "description": "Anteil der verfügbaren Betten für Kinder in Relation zur Anzahl betreibbarer Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum",
       "missingValues": [
         "",
         "NA"
@@ -125,7 +125,7 @@
     {
       "name": "betten_gesamt_frei_absolut",
       "type": "integer",
-      "description": "Gesamtzahl freier Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum",
+      "description": "Gesamtzahl verfügbarer Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum",
       "missingValues": [
         ""
       ],
@@ -137,7 +137,7 @@
     {
       "name": "betten_gesamt_frei_anteil",
       "type": "number",
-      "description": "Gesamtanteil freier Betten für Kinder und Erwachsene zusammengerechnet in Relation zur Anzahl verfügbarer Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum",
+      "description": "Gesamtanteil verfügbarer Betten für Kinder und Erwachsene zusammengerechnet in Relation zur Anzahl betreibbarer Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum",
       "missingValues": [
         "",
         "NA"
@@ -163,7 +163,7 @@
     {
       "name": "betten_erwachsene_belegt_anteil",
       "type": "number",
-      "description": "Anteil der freien Betten für Erwachsene in Relation zur Anzahl verfügbarer Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum",
+      "description": "Anteil der belegten Betten für Erwachsene in Relation zur Anzahl betreibbarer Betten für Erwachsene für das zugehörige Bundesland abhängig vom Berichtsdatum",
       "missingValues": [
         "",
         "NA"
@@ -189,7 +189,7 @@
     {
       "name": "betten_kinder_belegt_anteil",
       "type": "number",
-      "description": "Anteil der belegten Betten für Kinder in Relation zur Anzahl belegten Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum",
+      "description": "Anteil der belegten Betten für Kinder in Relation zur Anzahl betreibbarer Betten für Kinder für das zugehörige Bundesland abhängig vom Berichtsdatum",
       "missingValues": [
         "",
         "NA"
@@ -215,7 +215,7 @@
     {
       "name": "betten_gesamt_belegt_anteil",
       "type": "number",
-      "description": "Gesamtanteil belegter Betten für Kinder und Erwachsene zusammengerechnet in Relation zur Anzahl verfügbarer Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum",
+      "description": "Gesamtanteil belegter Betten für Kinder und Erwachsene zusammengerechnet in Relation zur Anzahl betreibbarer Betten für Kinder und Erwachsene zusammengerechnet für das zugehörige Bundesland abhängig vom Berichtsdatum",
       "missingValues": [
         "",
         "NA"
@@ -229,7 +229,7 @@
     {
       "name": "kliniken_meldend_beide",
       "type": "integer",
-      "description": "Anzahl der Kliniken die belegte und nicht belegte Betten melden.",
+      "description": "Anzahl der Kliniken, die belegte und verfügbare Betten melden.",
       "missingValues": [
         ""
       ],
@@ -241,7 +241,7 @@
     {
       "name": "kliniken_meldend_belegt",
       "type": "integer",
-      "description": "Anzahl der Kliniken die belegte Betten melden.",
+      "description": "Anzahl der Kliniken, die belegte Betten melden.",
       "missingValues": [
         ""
       ],
