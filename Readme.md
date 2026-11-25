@@ -25,7 +25,7 @@ Dokumentation
 
 **Zitieren**  
 <!-- CITATION_START: {"citation_style": "apa", "markdown_style": "plain"} -->
-Robert Koch-Institut. (2026). Krankenhaus-Bettenbelegung in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.xxxxxx](https://doi.org/10.5281/zenodo.xxxxxx)
+Robert Koch-Institut. (2026). Krankenhaus-Bettenbelegung in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.24531753](https://doi.org/10.5281/zenodo.24531753)
 <!-- CITATION_END -->
 
 
@@ -55,8 +55,8 @@ Krankenhäuser haben die Verpflichtung, Daten über ihre Kapazitäten auf Normal
 
 ## Administrative und organisatorische Angaben
 
-Im Datensatz "Krankenhaus-Bettenbelegung in Deutschland" werden Daten zur aktuellen Krankenhausbettenbelegung in Deutschland als Open Data bereitgestellt. Das [Fachgebiet 32 |](https://www.rki.de/fg32) Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle ist verantwortlich für die fachlichen Anforderungen, Standardisierung und konzeptionelle Weiterentwicklung des Meldesystems gemäß IfSG.    
-Zuständig für den Betrieb des Meldesystems und die Verarbeitung und Aufbereitung der im Meldesystem vorliegenden Rohdaten ist das [Fachgebiet IT4 | Development](https://www.rki.de/it4) des RKI.    
+Im Datensatz "Krankenhaus-Bettenbelegung in Deutschland" werden Daten zur aktuellen Krankenhausbettenbelegung in Deutschland als Open Data bereitgestellt. Das [Fachgebiet 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle](https://www.rki.de/fg32)  ist verantwortlich für die fachlichen Anforderungen, Standardisierung und konzeptionelle Weiterentwicklung des Meldesystems gemäß IfSG.    
+Zuständig für den Betrieb des Meldesystems und die Verarbeitung und Aufbereitung der im Meldesystem vorliegenden Rohdaten ist das [Fachgebiet IT4 | Software­architektur und -entwicklung](https://www.rki.de/it4) des RKI.    
 Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das [Fachgebiet MF 4 | Informations- und Forschungsdatenmanagement](https://www.rki.de/mf4). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an [opendata@](mailto:OpenData@rki.de)[rki.de](http://rki.de) gerichtet werden.  
 
 ## Entstehungskontext
@@ -91,13 +91,10 @@ Die Übermittlung der Daten der Krankenhäuser erfolgen wie oben angedeutet elek
 
 Innerhalb dieses Fragebogens werden Informationsbedarfe bzgl. der aktuellen Belegung von Krankenhausbetten an einem konkreten Krankenhausstandort formuliert. Im Einzelnen sind dies:
 
-  - Anzahl betreibbarer Betten auf Normalstationen für Erwachsene (optional)
-
-  - Anzahl belegter Betten auf Normalstationen für Erwachsene
-
-  - Anzahl betreibbarer Betten auf Normalstationen für Kinder (optional)
-
-  - Anzahl belegter Betten auf Normalstationen für Kinder
+  - Anzahl betreibbarer Betten auf Normalstationen für Erwachsene (optional)  
+  - Anzahl belegter Betten auf Normalstationen für Erwachsene  
+  - Anzahl betreibbarer Betten auf Normalstationen für Kinder (optional)  
+  - Anzahl belegter Betten auf Normalstationen für Kinder  
 
 Ein Krankenhaus hat üblicherweise 23 Stunden Zeit (von 12 Uhr bis 11 Uhr ME(S)Z des Folgetages), um einen entsprechenden Bericht zu versenden.
 
@@ -120,13 +117,10 @@ Jedes Krankenhaus kann einen oder mehrere Krankenhausstandorte haben. Die Stando
 
 Ein Bett gilt als betreibbar oder betriebsfähig, wenn entsprechend der Versorgungsstufe jeweils
 
-  - ein vorgesehener Raum
-
-  - funktionsfähige Geräte
-
-  - Material pro Bettenplatz
-
-  - personelle Besetzung mit pflegerischem und ärztlichem Fachpersonal
+  - ein vorgesehener Raum  
+  - funktionsfähige Geräte  
+  - Material pro Bettenplatz  
+  - personelle Besetzung mit pflegerischem und ärztlichem Fachpersonal  
 
 vorhanden sind und eingesetzt werden können.
 
@@ -140,33 +134,31 @@ Als belegtes Bett gilt jedes betreibbare Bett, das um 12:00 Uhr ME(S)Z eines Tag
 
 Als verfügbares Bett gilt jedes betreibbare Bett, das um 12:00 Uhr ME(S)Z eines Tages nicht belegt war.
 
-#### Bett auf Normalstation
+#### Bett auf Normalstationen
 
-Betten auf Normalstationen sind alle Betten eines Krankenhausstandortes außer Intensivbetten und Betten für gesunde Neugeborene. Psychiatrischen Stationen Also Betten, in denen in der Regel Leistungen erbracht werden, die nicht nach Diagnosis Related Groups (DRG) abgerechnet werden (insb. Allg. Psychiatrie, Kinder- und Jugendpsychiatrie und Psychosomatik/Psychotherapie, d.h. Schlüsselnummern 2900, 3000 und 3100 nach Fachabteilungsgliederung gem. § 301 SGB V)) sind nicht zu melden.
+Betten auf Normalstationen sind alle Betten eines Krankenhausstandortes außer Intensivbetten und Betten für gesunde Neugeborene. Psychiatrischen Stationen, also Betten, in denen in der Regel Leistungen erbracht werden, die nicht nach Diagnosis Related Groups (DRG) abgerechnet werden (insb. Allg. Psychiatrie, Kinder- und Jugendpsychiatrie und Psychosomatik/Psychotherapie, d.h. Schlüsselnummern 2900, 3000 und 3100 nach Fachabteilungsgliederung gem. § 301 SGB V)) sind nicht zu melden.
 
-Betten auf Normalstation werden getrennt erfasst nach:
+Betten auf Normalstationen werden getrennt erfasst nach:
 
-  - *<span class="underline">Bett auf Normalstation für Kinder</span>* -
-    Als entsprechende Betten zählen nur Betten auf Normalstation, die im
+  - *<span class="underline">Bett auf Normalstationen für Kinder</span>* 
+    - Als entsprechende Betten zählen nur Betten auf Normalstationen, die im
     DRG-Entgeltbereich der Pädiatrie, Kinderkardiologie, Neonatologie
     oder Kinderchirurgie (Schlüsselnummern 1000, 1100, 1200 und 1300
     nach Fachabteilungsgliederung gem. § 301 SGB V) zugeordnet sind,
     d.h. Behandlung von Kindern auf Betten des Erwachsenenbereichs
-    zählen NICHT als Betten auf Normalstation für Kinder.
+    zählen NICHT als Betten auf Normalstationen für Kinder.
 
-  - <span class="underline">Bett auf Normalstation für Erwachsene</span>
-    - Als entsprechende Betten zählen nur Betten auf Normalstation, die
-    keine Betten auf Normalstation für Kinder sind.
+  - <span class="underline">Bett auf Normalstationen für Erwachsene</span>
+    - Als entsprechende Betten zählen nur Betten auf Normalstationen, die
+    keine Betten auf Normalstationen für Kinder sind.
 
 ### Aufbereitung der Daten
 
 Nach Meldung der Daten an DEMIS, erfolgen am RKI Schritte zur Sicherung der Datenqualität. Dazu gehört insbesondere eine Plausibilitätsüberprüfung. Von Krankenhäusern gemeldete Daten, die:
 
-  - mehr belegte als betreibbare Betten ausweisen
-
-  - weniger als 8 betreibbare Betten ausweisen
-
-  - mehr als 10.000 betreibbare Betten ausweisen
+  - mehr belegte als betreibbare Betten ausweisen  
+  - weniger als 8 betreibbare Betten ausweisen  
+  - mehr als 10.000 betreibbare Betten ausweisen  
 
 werden als fehlerhaft klassifiziert und in den Datensatz nicht mit einbezogen.
 
@@ -177,16 +169,12 @@ Wie ob bereits beschrieben, sind laut der [<span class="underline">Verordnung zu
 Der Datensatz enthält die Anzahl der freien und belegten Krankenhausbetten in Deutschland.
 Im Datensatz enthalten sind:
 
-  - Krankenhaus-Bettenbelegung auf Bundes-Ebene
-
-  - Krankenhaus-Bettenbelegung auf Bundesländer-Ebene
-
+  - Krankenhaus-Bettenbelegung auf Bundes-Ebene  
+  - Krankenhaus-Bettenbelegung auf Bundesländer-Ebene  
   - Lizenz-Datei mit der Nutzungslizenz des Datensatzes in Deutsch und
-    Englisch
-
-  - Datensatzdokumentation in deutscher Sprache
-
-  - Metadaten zur automatisierten Weiterverarbeitung
+    Englisch  
+  - Datensatzdokumentation in deutscher Sprache  
+  - Metadaten zur automatisierten Weiterverarbeitung  
 
 
 ### Variablen und Variablenausprägungen
