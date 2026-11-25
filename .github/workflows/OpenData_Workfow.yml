@@ -13,19 +13,19 @@ jobs:
       ZENODOJSON_PATH: Metadaten/zenodo.json
     
       # Push to OpenCoDE
-      OPENCODE_ACTIVE: false
+      OPENCODE_ACTIVE: true
       OPENCODE_GROUPID: 2781
       OPENCODE_ACCESS_USER: RKIOpenData
       
       # Push to GovData Repositoy
-      GOVDATA_ACTIVE: false
+      GOVDATA_ACTIVE: true
       GOVDATA_DESTINATION_REPO: robert-koch-institut/Metadaten_fuer_GovData
       
       # Push to NFDI4Health
-      NFDI4HEALTH_ACTIVE: false
+      NFDI4HEALTH_ACTIVE: true
       
       #Build Open Data Website
-      WEBSITE_ACTIVE: false
+      WEBSITE_ACTIVE: true
 
       #Update Github Details
       GITHUB_DETAILS_ACTIVE: true
