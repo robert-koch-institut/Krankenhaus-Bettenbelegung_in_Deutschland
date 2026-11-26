@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+type: dataset
+title: Krankenhaus-Bettenbelegung in Deutschland
+abstract: >-
+  Im Datensatz "Krankenhaus-Bettenbelegung in Deutschland" des Robert Koch-Instituts
+  werden täglich aktualisierte Informationen zur Krankenhausbettenbelegung basierend
+  auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Der Datensatz
+  umfasst die Anzahl der betreibbaren, der belegten sowie der verfügbaren Betten auf
+  Normalstationen für Erwachsene und Kinder deutschlandweit und auf Ebene der Bundesländer.
+  Zusätzlich wird der Anteil der belegten sowie der verfügbaren Betten an den betreibbaren
+  Betten bereitgestellt. Ziel ist es, frühzeitig eine Überlastung auf Normalstationen
+  in deutschen Krankenhäusern auf Stadt-, Kreis- und Landesebene zu erkennen und gegensteuern
+  zu können.
+date-released: '2026-11-26'
+keywords:
+  - Hospitalization
+  - Krankenhauseinweisung
+  - Infektionen
+  - Deutschland
+  - Infections
+  - Germany
+  - Open Data
+  - RKI
+  - Gesundheitsberichterstattung
+  - Epidemiologie
+  - Public health surveillance
+  - Epidemiology
+message: Cite me!
+license: CC-BY-4.0
+doi: 10.5281/zenodo.24531753
+version: '2026-11-26'
+authors:
+  - name: Robert Koch-Institut
+    website: http://www.rki.de/

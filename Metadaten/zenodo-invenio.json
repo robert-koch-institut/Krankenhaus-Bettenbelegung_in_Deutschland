@@ -1,0 +1,160 @@
+{
+  "title": "Krankenhaus-Bettenbelegung in Deutschland",
+  "description": "<p>Im Datensatz \"Krankenhaus-Bettenbelegung in Deutschland\" des Robert Koch-Instituts werden täglich aktualisierte Informationen zur Krankenhausbettenbelegung basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Der Datensatz umfasst die Anzahl der betreibbaren, der belegten sowie der verfügbaren Betten auf Normalstationen für Erwachsene und Kinder deutschlandweit und auf Ebene der Bundesländer. Zusätzlich wird der Anteil der belegten sowie der verfügbaren Betten an den betreibbaren Betten bereitgestellt. Ziel ist es, frühzeitig eine Überlastung auf Normalstationen in deutschen Krankenhäusern auf Stadt-, Kreis- und Landesebene zu erkennen und gegensteuern zu können.</p>",
+  "resource_type": {
+    "id": "dataset"
+  },
+  "publication_date": "2026-11-26",
+  "creators": [
+    {
+      "person_or_org": {
+        "type": "organizational",
+        "name": "Robert Koch-Institut",
+        "identifiers": [
+          {
+            "scheme": "ror",
+            "identifier": "01k5qnb77"
+          }
+        ]
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "person_or_org": {
+        "type": "personal",
+        "family_name": "Oedi",
+        "given_name": "Philip",
+        "identifiers": [
+          {
+            "scheme": "orcid",
+            "identifier": "0009-0001-7112-505X"
+          }
+        ]
+      },
+      "affiliations": [
+        {
+          "name": "Robert Koch-Institut",
+          "id": "01k5qnb77"
+        }
+      ],
+      "role": {
+        "id": "datamanager"
+      }
+    },
+    {
+      "person_or_org": {
+        "type": "personal",
+        "family_name": "Birghan",
+        "given_name": "Katarina"
+      },
+      "affiliations": [
+        {
+          "name": "Robert Koch-Institut",
+          "id": "01k5qnb77"
+        }
+      ],
+      "role": {
+        "id": "projectmanager"
+      }
+    },
+    {
+      "person_or_org": {
+        "type": "personal",
+        "family_name": "Diercke",
+        "given_name": "Michaela",
+        "identifiers": [
+          {
+            "scheme": "orcid",
+            "identifier": "0000-0002-4678-1813"
+          }
+        ]
+      },
+      "affiliations": [
+        {
+          "name": "Robert Koch-Institut",
+          "id": "01k5qnb77"
+        }
+      ],
+      "role": {
+        "id": "projectmanager"
+      }
+    }
+  ],
+  "publisher": "Zenodo",
+  "version": "2026-11-26",
+  "dates": [
+    {
+      "date": "2026-11-26T16:16:21+01:00",
+      "type": {
+        "id": "created"
+      },
+      "description": "Date when the dataset was created"
+    }
+  ],
+  "languages": [
+    {
+      "id": "deu"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "scheme": "url",
+      "relation_type": {
+        "id": "issupplementto"
+      },
+      "identifier": "https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland",
+      "resource_type": {
+        "id": "dataset"
+      }
+    }
+  ],
+  "rights": [
+    {
+      "id": "cc-by-4.0"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "Hospitalization"
+    },
+    {
+      "subject": "Krankenhauseinweisung"
+    },
+    {
+      "subject": "Infektionen"
+    },
+    {
+      "subject": "Deutschland"
+    },
+    {
+      "subject": "Infections"
+    },
+    {
+      "subject": "Germany"
+    },
+    {
+      "subject": "Open Data"
+    },
+    {
+      "subject": "RKI"
+    },
+    {
+      "subject": "Gesundheitsberichterstattung"
+    },
+    {
+      "subject": "Epidemiologie"
+    },
+    {
+      "subject": "Public health surveillance"
+    },
+    {
+      "subject": "Epidemiology"
+    }
+  ],
+  "custom_fields": {
+    "legacy:communities": [
+      "robertkochinstitut"
+    ]
+  }
+}

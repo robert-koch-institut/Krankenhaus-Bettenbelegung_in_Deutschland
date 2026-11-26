@@ -26,9 +26,7 @@ Dokumentation
 
 **Zitieren**  
 <!-- CITATION_START: {"citation_style": "apa", "markdown_style": "plain"} -->
-
 Robert Koch-Institut. (2026). Krankenhaus-Bettenbelegung in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.24531753](https://doi.org/10.5281/zenodo.24531753)
-
 <!-- CITATION_END -->
 
 
@@ -250,7 +248,7 @@ Die Daten sind im Datensatz als kommaseparierte CSV-Dateien enthalten. Der verwe
 
 ### Metadaten  
 
-Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei. Diese Dateien sind im Metadatenordner hinterlegt:  
+Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:  
 
 > [Metadaten/](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/tree/main/Metadaten/) 
 
@@ -258,10 +256,9 @@ Versionierung und DOI-Vergabe erfolgen über [Zenodo.org](https://zenodo.org). D
  
 > [Metadaten/zenodo.json](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/Metadaten/zenodo.json)  
 
-In der Datei `zenodo.json` ist neben dem Publikationsdatum (`"publication_date"`) auch der Datenstand in folgendem Format enthalten (Beispiel):  
+In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch der Datenstand in folgendem Format enthalten (Beispiel):  
 
-```json
-
+```
   "dates": [
     {
       "start": "2023-09-11T15:00:21+02:00",
@@ -269,12 +266,12 @@ In der Datei `zenodo.json` ist neben dem Publikationsdatum (`"publication_date"`
       "type": "Created",
       "description": "Date when the published data was created"
     }
-  ]
+  ],
 ```    
 
 
 Zusätzlich beschreiben wir tabellarische Daten mithilfe des [Data Package Standards](https://datapackage.org/).
-Ein Data Package ist eine strukturierte Sammlung von Daten und zugehörigen Metadaten, die den Austausch und die Wiederverwendung von Daten erleichtert. Es besteht aus einer `datapackage.json`-Datei, die zentrale Informationen wie die enthaltenen Ressourcen, ihre Formate und Schemadefinitionen beschreibt.
+Ein Data Package ist eine strukturierte Sammlung von Daten und zugehörigen Metadaten, die den Austausch und die Wiederverwendung von Daten erleichtert. Es besteht aus einer datapackage.json-Datei, die zentrale Informationen wie die enthaltenen Ressourcen, ihre Formate und Schema-Definitionen beschreibt.
 
 Der Data Package Standard wird von der [Open Knowledge Foundation](https://okfn.org/) bereitgestellt und ist ein offenes Format, das eine einfache, maschinenlesbare Beschreibung von Datensätzen ermöglicht.
 
@@ -282,7 +279,7 @@ Die Liste der in diesem Repository enthaltenen Daten ist in folgender Datei hint
 
 > [datapackage.json](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/tree/main/datapackage.json)
 
-Für tabellarische Daten definieren wir zusätzlich ein [Table Schema](https://datapackage.org/standard/table-schema/), das die Struktur der Tabellen beschreibt, einschließlich Spaltennamen, Datentypen und Validierungsregeln. Diese Schemadateien finden sich unter:
+Für tabellarische Daten definieren wir zusätzlich ein [Table Schema](https://datapackage.org/standard/table-schema/), das die Struktur der Tabellen beschreibt, einschließlich Spaltennamen, Datentypen und Validierungsregeln. Diese Schema-Dateien finden sich unter:
 
 > [Metadaten/schemas/](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/tree/main/Metadaten/schemas) 
 
@@ -303,5 +300,5 @@ Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [Git
 
 Der Datensatz "Krankenhaus-Bettenbelegung in Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
 
-Die im Datensatz bereitgestellten Daten sind unter der Bedingung der Namensnennung des Robert Koch-Instituts als Quelle frei verfügbar. Das bedeutet, dass jede Person das Recht hat, die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/LICENSE)- bzw. [LIZENZ](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/LIZENZ)-Datei des Datensatzes.  
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, dass jede Person das Recht hat, die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/LICENSE)- bzw. [LIZENZ](https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland/blob/main/LIZENZ)-Datei des Datensatzes.  
 <!-- FOOTER_END -->
