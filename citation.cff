@@ -11,7 +11,7 @@ abstract: >-
   Betten bereitgestellt. Ziel ist es, frühzeitig eine Überlastung auf Normalstationen
   in deutschen Krankenhäusern auf Stadt-, Kreis- und Landesebene zu erkennen und gegensteuern
   zu können.
-date-released: '2026-11-26'
+date-released: '2026-11-27'
 keywords:
   - Hospitalization
   - Krankenhauseinweisung
@@ -27,8 +27,8 @@ keywords:
   - Epidemiology
 message: Cite me!
 license: CC-BY-4.0
-doi: 10.5281/zenodo.24531753
-version: '2026-11-26'
+doi: 10.5281/zenodo.24587603
+version: '2026-11-27'
 authors:
   - name: Robert Koch-Institut
     website: http://www.rki.de/
